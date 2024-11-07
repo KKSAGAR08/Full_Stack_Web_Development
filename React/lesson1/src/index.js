@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const name = "xyz";
+// This will evalute only expression not statement
+// In ES6 we add Templete literals denoted by `${}`
+
+ReactDOM.render(<div>             
+<h1>Hello world </h1>
+<h5>My name is {`${name}`}</h5>      
+<p>My luck number is {Math.floor(Math.random()*10)}</p>
+</div>,
+document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
