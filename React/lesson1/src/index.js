@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Project_1 from "./project_1";
-import Project_2 from "./project_2";
+import Project_3 from "./project_3"
 
 // const name = "xyz";
 //This will evalute only expression not statement
@@ -17,7 +16,7 @@ import Project_2 from "./project_2";
 
 
 ReactDOM.render(
-< Project_2/>,
+< Project_3/>,
 document.getElementById("root")
 );
 
