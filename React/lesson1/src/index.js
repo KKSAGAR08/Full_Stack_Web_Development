@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Food from "./Lesson/component"
+import Caluculator from "./Challenges/challenge_1/App"
 
 // const name = "xyz";
 //This will evalute only expression not statement
@@ -16,7 +16,7 @@ import Food from "./Lesson/component"
 
 
 ReactDOM.render(
-< Food/>,
+< Caluculator/>,
 document.getElementById("root")
 );
 
