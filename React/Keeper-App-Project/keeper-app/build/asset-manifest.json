@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Full_Stack_Web_Development/static/css/main.a4358b10.css",
+    "main.js": "/Full_Stack_Web_Development/static/js/main.92d8b314.js",
+    "index.html": "/Full_Stack_Web_Development/index.html",
+    "main.a4358b10.css.map": "/Full_Stack_Web_Development/static/css/main.a4358b10.css.map",
+    "main.92d8b314.js.map": "/Full_Stack_Web_Development/static/js/main.92d8b314.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4358b10.css",
+    "static/js/main.92d8b314.js"
+  ]
+}
