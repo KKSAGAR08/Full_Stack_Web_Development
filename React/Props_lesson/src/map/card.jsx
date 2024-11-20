@@ -1,4 +1,5 @@
 import React from "react";
+import Avatar from "./avatar"
 import "./style.css";
 
 
@@ -8,11 +9,8 @@ function App(props) {
     <div>
       <div className="card">
         <div className="top">
-          <h2 className="name">{props.name1}</h2>
-          <img className="circle-img"
-            src={props.url}
-            alt="avatar_img"
-          />
+          <h2 className="name">{props.name}</h2>
+          <Avatar url={props.url} />
         </div>
         <div className="bottom">
           <p className="info">{props.phoneno}</p>
