@@ -1,13 +1,22 @@
 import React from "react";
-import "./style.css";
+import Notes from "./display"
+import note from "./components/notes"
 
-function notes(){
+
+function notes(props){
     return(
-        <div className="note">
-            <h1>React Daily</h1>
-            <p>Practise react daily</p>
-        </div>
+        note.map((valufornotes)=>{
+            return(
+                <Notes
+                key={valufornotes.Key}
+                title={valufornotes.title}
+                content={valufornotes.content}
+                />
+                 )
+        })
+            
     )
+    
 }
 
 export default notes;

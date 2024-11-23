@@ -6,7 +6,7 @@ import Footer from "./footer"
 
 ReactDOM.render(
   <div>
-  <Header></Header>,
+  <Header></Header>
   <Details></Details>
   <Footer></Footer>
   </div>,
