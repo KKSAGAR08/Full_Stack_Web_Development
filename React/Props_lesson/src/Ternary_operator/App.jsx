@@ -1,22 +1,18 @@
 import React from "react";
 import Login from "./login"
 import "./style.css"
-const val=false
+const isRegisterd=false
 
-function rendercontion(){
-    
-    if(val===true){
-        return(<h1>Hello</h1>)
-    }else{
-        return(<Login/>)
-    }
 
-}
 function App(){
     return(
         
         <div className="container">
-        {rendercontion()}
+        <Login
+        username="Username"
+        password="password"
+        register={isRegisterd}
+        />
         </div>
     )
 }
